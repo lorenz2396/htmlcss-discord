@@ -76,16 +76,29 @@ h1{
 
 .my-button {
     display: inline-block;
-    padding: 5px;
+    padding: 20px;
     border-radius: 50px;
     background-color: white;
     color: black;
     text-align: center;
+    font-size: large;
 }
 
 .my-button-small{
     font-size: 0.75em;
+    padding: 5px;
 }
+
+.download{
+   position: left;
+}
+
+.open{
+    background-color: black;
+    color: white;
+    position: right;
+}
+
     
 
 
@@ -129,7 +142,10 @@ header .header-bottom{
 }
 
 header .header-bottom .link-pc{
-    
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 10px;
 }
 
 /* MAIN */
